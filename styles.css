@@ -76,9 +76,39 @@ img {
   place-items: center;
   gap: 3rem;
 }
-.deadline-format {
+.deadline {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
   gap: 2rem;
+}
+.deadline-format {
+  background-color: #00164f;
+  padding: 0.2rem 1rem;
+  border-radius: 0.2rem;
+  color: #e6e8ee;
+}
+.deadline-format h4 {
+  text-align: center;
+}
+@media screen and (max-width: 769px) {
+  .section-center {
+    grid-template-columns: 2fr 1fr;
+  }
+  h3 {
+    font-size: 1.2rem;
+   
+  }
+  h4 {
+    font-size: 1rem;
+    margin
+  }
+  .deadline-format h4,
+  span {
+    font-size: 0.875rem;
+  }
+}
+@media screen and (max-width: 426px) {
+  .section-center {
+    grid-template-columns: auto;
+  }
 }
